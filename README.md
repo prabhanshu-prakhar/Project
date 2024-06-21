@@ -17,3 +17,8 @@ Pandas: A Python library used for data manipulation and analysis.
 SQL: For data storage, management, and complex querying.
 Web Scraping: Techniques used to collect data from various online sources.
 
+import json
+
+with open(r'D:\EDA\t20_json_files\t20_json_files\t20_wc_match_results.json') as f:
+    data = json.load(f)
+data
